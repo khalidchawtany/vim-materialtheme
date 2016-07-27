@@ -190,3 +190,60 @@ hi SyntasticWarningSign guifg=#ffd54f gui=bold
 
 
 " Vimrc color overides
+"#D35636
+  "hi Visual guibg=#FBBC05 guifg=#0F0F0F
+  hi Visual guibg=#D45438 guifg=white
+  "hi NonText ctermfg=12 gui=bold guifg=#37474f guibg=#D45438
+  "hi EndOfBuffer ctermfg=12 gui=bold guifg=#37474f guibg=#263238
+  hi PmenuSel guibg=#D45438 guifg=white
+
+  "hi FoldColumn guibg=#1d1f21 guifg=#373b41
+  "hi Folded ctermfg=243 ctermbg=234 guifg=#707880 guibg=#151515
+  "hi Folded ctermfg=250 ctermbg=236 guifg=#998833 guibg=#1d1f21 gui=NONE cterm=NONE
+  "hi FoldColumn ctermfg=250 ctermbg=236 guifg=#465457 guibg=#232526
+  "hi Folded ctermfg=250 ctermbg=236 guifg=#00F0FF guibg=#232526
+  "hi FoldColumn ctermfg=250 ctermbg=236 guifg=#00F0FF guibg=#232526
+
+  hi NERDTreeCurrentNode guibg=#B34826 guifg=white
+  hi MatchParen gui=underline ctermfg=234 ctermbg=60 guifg=#1d1f21 guibg=#D95D63
+
+  set laststatus=0
+  set nolist
+  set foldlevelstart=2
+
+  " vim-buftabline support
+  hi! SLIdentifier guibg=#151515 guifg=#ffb700 gui=bold cterm=bold ctermbg=233i ctermfg=214
+  hi! SLCharacter guibg=#151515 guifg=#e6db74 ctermbg=233 ctermfg=227
+  hi! SLType guibg=#151515 guifg=#66d9ae gui=bold cterm=bold ctermbg=233 ctermfg=81
+  hi! link BufTabLineFill StatusLine
+  hi! link BufTabLineCurrent SLIdentifier
+  hi! link BufTabLineActive SLCharacter
+  hi! link BufTabLineHidden SLType
+
+
+  let g:terminal_color_0  = '#2e3436'
+  let g:terminal_color_1  = '#cc0000'
+  let g:terminal_color_2  = '#4e9a06'
+  let g:terminal_color_3  = '#c4a000'
+  let g:terminal_color_4  = '#3465a4'
+  let g:terminal_color_5  = '#75507b'
+  let g:terminal_color_6  = '#0b939b'
+  let g:terminal_color_7  = '#d3d7cf'
+  let g:terminal_color_8  = '#555753'
+  let g:terminal_color_9  = '#ef2929'
+  let g:terminal_color_10 = '#8ae234'
+  let g:terminal_color_11 = '#fce94f'
+  let g:terminal_color_12 = '#729fcf'
+  let g:terminal_color_13 = '#ad7fa8'
+  let g:terminal_color_14 = '#00f5e9'
+  let g:terminal_color_15 = '#eeeeec'
+
+  "Make the bright gray font black in terminal
+  let g:terminal_color_7  = '#FBBC05'
+
+
+  "Multiedit highlight colors
+  "This makes it faster too!
+  hi! MultieditRegions guibg=#AF1469
+  hi! MultieditFirstRegion guibg=#ED3F6C
+
