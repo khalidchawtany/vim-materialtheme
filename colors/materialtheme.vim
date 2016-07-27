@@ -207,10 +207,6 @@ hi SyntasticWarningSign guifg=#ffd54f gui=bold
   hi NERDTreeCurrentNode guibg=#B34826 guifg=white
   hi MatchParen gui=underline ctermfg=234 ctermbg=60 guifg=#1d1f21 guibg=#D95D63
 
-  set laststatus=0
-  set nolist
-  set foldlevelstart=2
-
   " vim-buftabline support
   hi! SLIdentifier guibg=#151515 guifg=#ffb700 gui=bold cterm=bold ctermbg=233i ctermfg=214
   hi! SLCharacter guibg=#151515 guifg=#e6db74 ctermbg=233 ctermfg=227
