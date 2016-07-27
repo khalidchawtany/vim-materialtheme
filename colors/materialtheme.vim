@@ -39,8 +39,8 @@ hi TermCursor      cterm=reverse gui=reverse
 hi NonText         ctermfg=237 guifg=#373b41
 hi Directory       ctermfg=110 guifg=#81a2be
 hi ErrorMsg        cterm=standout ctermfg=234 ctermbg=167 gui=standout guifg=#1d1f21 guibg=#cc6666
-hi IncSearch       cterm=reverse gui=reverse
-hi Search          ctermfg=234 ctermbg=221 guifg=#1d1f21 guibg=#f0c674
+"hi IncSearch       cterm=reverse gui=reverse
+"hi Search          ctermfg=234 ctermbg=221 guifg=#1d1f21 guibg=#f0c674
 hi MoreMsg         ctermfg=143 guifg=#b5bd68
 hi ModeMsg         ctermfg=143 guifg=#b5bd68
 hi LineNr          ctermfg=237 guifg=#373b41
