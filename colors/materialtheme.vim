@@ -32,11 +32,105 @@ let colors_name = "materialtheme"
 "green  300 81c784
 "blue   300 64b5f6
 
-hi Normal guibg=#263238 guifg=#eeeeec 
+
+hi SpecialKey      ctermfg=237 guifg=#373b41
+hi link EndOfBuffer    NonText
+hi TermCursor      cterm=reverse gui=reverse
+hi NonText         ctermfg=237 guifg=#373b41
+hi Directory       ctermfg=110 guifg=#81a2be
+hi ErrorMsg        cterm=standout ctermfg=234 ctermbg=167 gui=standout guifg=#1d1f21 guibg=#cc6666
+hi IncSearch       cterm=reverse gui=reverse
+hi Search          ctermfg=234 ctermbg=221 guifg=#1d1f21 guibg=#f0c674
+hi MoreMsg         ctermfg=143 guifg=#b5bd68
+hi ModeMsg         ctermfg=143 guifg=#b5bd68
+hi LineNr          ctermfg=237 guifg=#373b41
+hi CursorLineNr    ctermfg=221 guifg=#f0c674
+hi Question        ctermfg=143 guifg=#b5bd68
+hi StatusLine      cterm=reverse ctermfg=243 ctermbg=234 gui=reverse guifg=#707880 guibg=#1d1f21
+hi StatusLineNC    cterm=reverse ctermfg=236 ctermbg=243 gui=reverse guifg=#303030 guibg=#707880
+hi VertSplit       ctermfg=236 guifg=#303030
+hi Title           ctermfg=221 guifg=#f0c674
+hi Visual          ctermbg=237 guifg=white guibg=#D45438
+hi WarningMsg      ctermfg=167 guifg=#cc6666
+hi WildMenu        ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
+hi Folded          ctermfg=243 ctermbg=234 guifg=#707880 guibg=#1c1c1c
+hi FoldColumn      ctermbg=234 guibg=#1c1c1c
+hi DiffAdd         ctermfg=193 ctermbg=65 guifg=#d7ffaf guibg=#5F875F
+hi DiffChange      ctermfg=189 ctermbg=60 guifg=#d7d7ff guibg=#5F5F87
+hi DiffDelete      ctermfg=234 ctermbg=167 guifg=#1d1f21 guibg=#cc6666
+hi DiffText        ctermfg=234 ctermbg=110 guifg=#1d1f21 guibg=#81a2be
+hi SignColumn      ctermbg=234 guibg=#1c1c1c
+hi Conceal         ctermfg=7 ctermbg=242 guifg=LightGrey guibg=DarkGrey
+hi SpellBad        cterm=underline ctermfg=167 ctermbg=52 gui=underline guifg=#cc6666 guibg=#5f0000 guisp=Red
+hi SpellCap        cterm=underline ctermfg=110 ctermbg=17 gui=underline guifg=#81a2be guibg=#00005f guisp=Blue
+hi SpellRare       cterm=underline ctermfg=139 ctermbg=53 gui=underline guifg=#b294bb guibg=#5f005f guisp=Magenta
+hi SpellLocal      cterm=underline ctermfg=109 ctermbg=24 gui=underline guifg=#8abeb7 guibg=#005f5f guisp=Cyan
+hi Pmenu           ctermfg=250 ctermbg=237 guifg=#c5c8c6 guibg=#373b41
+hi PmenuSel        cterm=reverse ctermfg=250 ctermbg=237 gui=reverse guifg=white guibg=#D45438
+hi PmenuSbar       ctermbg=248 guibg=Grey
+hi PmenuThumb      ctermbg=15 guibg=White
+hi TabLine         cterm=reverse ctermfg=250 ctermbg=234 gui=reverse guifg=#c5c8c6 guibg=#1c1c1c
+hi TabLineSel      cterm=bold gui=bold
+hi TabLineFill     cterm=reverse gui=reverse
+hi CursorColumn    ctermbg=235 guibg=#282a2e
+hi CursorLine      ctermbg=235 guibg=#282a2e
+hi ColorColumn     ctermbg=4 guifg=#111111 guibg=#E1340F
+hi MatchParen      ctermfg=234 ctermbg=60 gui=underline guifg=#1d1f21 guibg=#D95D63
+hi LongLineWarning  cterm=underline gui=underline guibg=#371F1C
+hi Normal          ctermfg=250 ctermbg=234 guifg=#c5c8c6 guibg=#1d1f21
+hi Comment         ctermfg=243 guifg=#707880
+hi Constant        ctermfg=139 guifg=#b294bb
+hi String          ctermfg=143 guifg=#b5bd68
+hi Identifier      ctermfg=167 guifg=#cc6666
+hi Function        ctermfg=221 guifg=#f0c674
+hi Statement       ctermfg=110 guifg=#81a2be
+hi Operator        ctermfg=109 guifg=#8abeb7
+hi PreProc         ctermfg=109 guifg=#8abeb7
+hi Type            ctermfg=173 guifg=#de935f
+hi Structure       ctermfg=109 guifg=#8abeb7
+hi Special         ctermfg=167 guifg=#cc6666
+hi Underlined      ctermfg=110 guifg=#81a2be
+hi Error           cterm=underline ctermfg=139 ctermbg=52 gui=underline guifg=#b294bb guibg=#5f0000
+hi Todo            ctermfg=193 guifg=#d7ffaf
+hi qfLineNr        ctermfg=221 guifg=#f0c674
+hi link diffRemoved    Constant
+hi link diffAdded      Special
+hi link Character      Constant
+hi link Number         Constant
+hi link Boolean        Constant
+hi link Float          Number
+hi link Conditional    Statement
+hi link Repeat         Statement
+hi link Label          Statement
+hi link Keyword        Statement
+hi link Exception      Statement
+hi link Include        PreProc
+hi link Define         PreProc
+hi link Macro          PreProc
+hi link PreCondit      PreProc
+hi link StorageClass   Type
+hi link Typedef        Type
+hi link Tag            Special
+hi link SpecialChar    Special
+hi link Delimiter      Special
+hi link SpecialComment Special
+hi link Debug          Special
+hi SLIdentifier    cterm=bold ctermfg=214 ctermbg=233 gui=bold guifg=#ffb700 guibg=#151515
+hi SLCharacter     ctermfg=227 ctermbg=233 guifg=#e6db74 guibg=#151515
+hi SLType          cterm=bold ctermfg=81 ctermbg=233 gui=bold guifg=#66d9ae guibg=#151515
+hi link BufTabLineFill StatusLine
+hi link BufTabLineCurrent SLIdentifier
+hi link BufTabLineActive SLCharacter
+hi link BufTabLineHidden SLType
+
+
+
+
+hi Normal guibg=#263238 guifg=#eeeeec
 hi VertSplit guibg=#263238 guifg=#263238
 hi SignColumn guibg=#263238
 hi LineNr guibg=#263238 guifg=#37474f
-hi NonText guibg=#263238 guifg=#37474f
+"hi NonText guibg=#263238 guifg=#37474f
 hi Cursor gui=none guibg=#607d8b guifg=#263238
 hi CursorLine guibg=#2b3940
 hi CursorColumn guibg=#2b3940
