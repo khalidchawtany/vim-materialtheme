@@ -165,7 +165,9 @@ hi PreProc guifg=#e9ba6e
 hi Special term=underline guifg=#64b5f6
 hi Number guifg=#ffd54f gui=bold
 
-hi Search guifg=#000000 guibg=#FBBC05 gui=bold,underline,italic
+hi Search guifg=#000000 guibg=#D45438 gui=bold,underline,italic
+hi IncSearch guifg=#000000 guibg=#FBBC05 gui=bold,underline,italic
+
 hi StatusLine guibg=#546e7a guifg=#263238
 hi StatusLineNC guibg=#263238 guifg=#263238
 hi TabLineFill guibg=#263238
